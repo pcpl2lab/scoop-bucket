@@ -1,0 +1,29 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/pcpl2lab/sshforward/releases/download/v0.1.0/sshforward_windows_386.zip",
+            "bin": [
+                "sshforward.exe"
+            ],
+            "hash": "fbc612acb912a977b77ea257f6e896eb8e172de60363cdd07b5409db63a4cc1f"
+        },
+        "64bit": {
+            "url": "https://github.com/pcpl2lab/sshforward/releases/download/v0.1.0/sshforward_windows_amd64.zip",
+            "bin": [
+                "sshforward.exe"
+            ],
+            "hash": "1025ee4a276b53e94c0f14988b17d02eff7037c384557b79316529a430d5dc41"
+        },
+        "arm64": {
+            "url": "https://github.com/pcpl2lab/sshforward/releases/download/v0.1.0/sshforward_windows_arm64.zip",
+            "bin": [
+                "sshforward.exe"
+            ],
+            "hash": "67248877f03760343050d86927c54ffee9e4c295f7bfb65db3e7686513575044"
+        }
+    },
+    "homepage": "https://github.com/pcpl2lab/sshforward",
+    "license": "BSD-2-Clause",
+    "description": "SSH port forwarding manager"
+}
